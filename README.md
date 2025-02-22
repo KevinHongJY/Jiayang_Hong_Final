@@ -1,4 +1,4 @@
-# Jiayang_Hong_PS1
+# Jiayang_Hong_PS2
 Project: GMNS Data Analysis
 Welcome to my-gmns-project, a repository for analyzing a large-scale transportation network dataset following the General Modeling Network Specification (GMNS). This README explains how to configure and run the analysis both locally and in the cloud.
 

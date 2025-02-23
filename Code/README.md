@@ -1,4 +1,4 @@
-Explanation for NLP Results:
+# **Explanation**:
 
 This section provides an analysis of sentiment trends and topic modeling applied to transportation policy texts. Two key visualizations summarize the insights derived from Natural Language Processing (NLP) techniques.
 
@@ -18,3 +18,13 @@ The x-axis represents two dominant topics identified from the dataset.
 The y-axis represents the importance (or weight) of each topic in shaping public discussion around transportation.
 Topic 1 is more dominant, indicating that a specific concern (e.g., congestion reduction or toll policies) appears frequently in policy discussions.
 Topic 2 captures a secondary theme, potentially related to public transit expansion or accessibility improvements.
+# **Congestion Prediction: Model Evaluation & Feature Importance**
+![image](https://github.com/user-attachments/assets/65334a84-aaed-4e8b-b4d4-709275868c24)
+![image](https://github.com/user-attachments/assets/3dc60b87-2b60-4a2a-bdac-5e53ddaefd0c)
+![image](https://github.com/user-attachments/assets/dcba2c2a-194b-4d07-89ed-8d4a0df58ae7)
+
+# **Causal Inference**
+![image](https://github.com/user-attachments/assets/56624bbc-0364-42c0-b8ff-eebbec1bc03f)
+<img width="665" alt="Screenshot 2025-02-23 at 4 22 17 PM" src="https://github.com/user-attachments/assets/81cf2118-62ff-47a7-b443-df6745cf77be" />
+<img width="361" alt="Screenshot 2025-02-23 at 4 22 33 PM" src="https://github.com/user-attachments/assets/4e6bb152-86fc-4754-89df-af30f15a62f0" />
+

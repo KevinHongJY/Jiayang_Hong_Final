@@ -18,8 +18,33 @@ The main objectives of this codebase are:
 | `causal_inference.ipynb` | Implements **Regression Discontinuity (RD) Analysis** to estimate the impact of congestion pricing policies. |
 
 ---
+## **3. Prerequisites**
+### **Required Libraries & Versions**
+Ensure you have **Python 3.9+** installed. The required dependencies include:
 
-## **3. Explanation & Visualizations**
+```bash
+pip install -r requirements.txt
+```
+## **4. Usage Instructions**
+Loading Datasets
+Place required datasets in the data/ folder:
+
+NLP Analysis → Transport policy text data.
+Congestion Prediction → GMNS network attributes.
+Causal Inference (RD Analysis) → Simulated emission scores & travel speeds.
+
+📝 NLP Analysis (nlp_analysis.ipynb)
+Sentiment analysis (VADER) & topic modeling (LDA).
+Generates sentiment distribution & topic importance plots.
+🚦 Congestion Prediction (congestion_prediction.ipynb)
+Trains Random Forest & XGBoost models.
+Evaluates RMSE, R² Score, and MAE.
+Outputs congestion prediction & feature importance charts.
+📉 Causal Inference (causal_inference_rd.ipynb)
+Estimates congestion pricing impact on travel speed.
+Plots RD discontinuity & regression estimates.
+Runs robustness & sensitivity checks.
+## **5.Expected Outputs**
 ### **Natural Language Processing (NLP) Analysis**
 This section provides an analysis of **sentiment trends and topic modeling** applied to transportation policy texts.
 
@@ -65,10 +90,12 @@ Regression Discontinuity (RD) is used to analyze the impact of **congestion pric
   - Sensitivity analysis across multiple bandwidths ensures **consistent effects**.
 
 ---
+## **6. Contributors**
 
-## **4. Prerequisites**
-### **Required Libraries & Versions**
-Ensure you have **Python 3.9+** installed. The required dependencies include:
+This project was developed as part of an advanced study on **Machine Learning for Social Science**, focusing on **NLP, congestion prediction, and causal inference**.
 
-```bash
-pip install -r requirements.txt
+| **Contributor**     | **Role**                                      | **Contributions** |
+|---------------------|----------------------------------------------|-------------------|
+| **Jiayang Hong**    | NLP & Data Visualization & Machine Learning       | Developed ML models, RD analysis, and dataset processing.,Implemented sentiment analysis, topic modeling, and visualizations. |
+
+

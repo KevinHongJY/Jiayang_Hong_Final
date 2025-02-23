@@ -23,4 +23,20 @@ This folder holds datasets from **Nature Research’s Scientific Data**. The pri
 | `time_period`      | String / Categorical  | Indicates time grouping for OD data (e.g., `peak`, `off_peak`)                | `peak_morning`, `peak_evening`       |
 | `bike_facility`    | Boolean / String      | Indicates presence of a bike lane or shared lane marking on the link          | `Yes`, `No`, `Shared Lane`           |
 
+## **3. Preprocessing and Harmonization Steps**
+1. **Missing Data Handling**  
+   - Imputed missing values for emission scores and speed data using mean values.
+   - Removed extreme outliers beyond **3 standard deviations**.
+
+2. **Feature Engineering**
+   - Converted categorical variables (e.g., intersection types) into **numerical encoding**.
+   - Created **binary treatment indicator** for **congestion pricing policy**.
+
+3. **Standardization and Scaling**
+   - Normalized continuous features (e.g., speed, emissions) to ensure **model consistency**.
+   - Applied **log transformation** on highly skewed variables.
+
+4. **Train-Test Splitting**
+   - The dataset for machine learning was split into **80% training** and **20% testing** sets.
+
 **Note**: All coordinate data in `node.csv` use **UTM** unless stated otherwise, and OD matrices are typically aggregated in 15-minute intervals. For further details on data usage, see the main [`README.md`](../README.md) in the root directory.

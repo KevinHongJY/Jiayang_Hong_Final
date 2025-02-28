@@ -20,7 +20,11 @@ This project has deepened my understanding of **machine learning applications in
 - [Research Objectives](#research-objectives)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Repository Navigation](#repository-navigation)
+- [Repository Structure](#repository-structure)
+  - [Code](#code)
+  - [Data](#data)
+  - [Visualizations](#visualizations)
+  - [Documentation](#documentation)
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Contact](#contact)
 
@@ -69,11 +73,32 @@ To validate model performance, actual congestion levels were compared with predi
 
 ---
 
-## **Repository Navigation**
-- **`/data`** – Contains raw and processed datasets.
-- **`/code`** – Includes scripts for **data preprocessing, model training, evaluation, and visualization**.
-- **`/notebooks`** – Jupyter notebooks detailing **step-by-step analysis**.
-- **`/docs`** – Project documentation, references, and final report.
+## **Repository Structure**
+This repository is organized into clearly labeled directories:
+
+### **Code**
+Contains all Python scripts and Jupyter notebooks used in the project.
+- `code/data_preprocessing.py` – Data cleaning and feature engineering.
+- `code/model_training.py` – Training and evaluation of Random Forest and XGBoost models.
+- `code/feature_importance.py` – Analysis of the most significant predictors.
+- `notebooks/ML_Transportation_Analysis.ipynb` – Step-by-step workflow.
+
+### **Data**
+Contains raw and processed datasets used for analysis.
+- `data/raw/` – Original GMNS dataset.
+- `data/processed/` – Cleaned and preprocessed data files.
+
+### **Visualizations**
+Includes figures, charts, and tables that illustrate key findings.
+- `visualizations/predictions_vs_actual.png`
+- `visualizations/feature_importance.png`
+
+### **Documentation**
+Stores supplementary materials, reports, and references.
+- `docs/final_report.pdf`
+- `docs/references.bib`
+
+---
 
 ## **How to Use This Repository**
 ### **Setup Instructions**

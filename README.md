@@ -24,7 +24,7 @@ This project has deepened my understanding of **machine learning applications in
   - [Explanation](./Code/Explanation.py)
   - [Prediction](./Code/Prediction.py)
 - [Data](./Data)
-- [Docs](./docs)
+- [Docs](./Documentation)
 - [Final Report](./docs/Final-Report.pdf)
 
 ## Code

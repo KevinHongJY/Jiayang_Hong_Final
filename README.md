@@ -54,4 +54,4 @@ The `visualizations` directory includes all plots and charts that illustrate the
 The `docs` directory contains supplementary documentation and the final report.
 
 ## Final Report
-The [Final Report](./docs/Final-Report.pdf) provides a comprehensive overview of the study, including the background, methodologies, results, and conclusions.
+The [Final Report](./Final_Report.pdf) provides a comprehensive overview of the study, including the background, methodologies, results, and conclusions.

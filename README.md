@@ -16,60 +16,41 @@ This project has deepened my understanding of **machine learning applications in
 ---
 
 ## **Table of Contents**
-- [Introduction](#introduction)
-- [Research Objectives](#research-objectives)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Repository Structure](#repository-structure)
-  - [Code](#code)
-  - [Data](#data)
-  - [Visualizations](#visualizations)
-  - [Documentation](#documentation)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Contact](#contact)
+# Machine Learning for Transportation Analysis
 
----
+## Table of Contents
+- [Code](#code)
+  - [Explanation Notebook](./code/Explanation.ipynb)
+  - [Causal Inference Notebook](./code/causal_inference.ipynb)
+  - [Prediction Notebook](./code/prediction.ipynb)
+- [Data](./data)
+- [Visualizations](./visualizations)
+- [Docs](./docs)
+  - [Final Report](./docs/Final-Report.pdf)
 
-## **Introduction**
-This study investigates the use of **supervised machine learning** to predict **congestion levels in urban transportation networks**. Using the **General Modeling Network Specification (GMNS)** dataset, the project develops and evaluates models that leverage **road capacity, free speed, number of lanes, and time of day** to forecast congestion levels. The findings provide actionable insights for **urban planners, policymakers, and transportation agencies**.
+## Code
+The `code` directory contains all Python scripts and Jupyter notebooks used for this project. It includes methods for explanation (such as social network analysis), prediction (machine learning models), and causal inference (regression discontinuity design).
 
-## **Research Objectives**
-- Develop a **machine learning model for predicting congestion levels** based on real-world transportation data.
-- Assess the effectiveness of **Random Forest and XGBoost** in forecasting congestion.
-- Identify **key transportation features influencing congestion** to improve **urban mobility planning**.
+## Explanation Notebook
+The [Explanation Notebook](./code/Explanation.ipynb) provides the script for social network analysis and related methods used to extract insights from the data.
 
-## **Methodology**
-- **Data Preprocessing**:  
-  The dataset includes attributes such as **road capacity, free flow speed, number of lanes, and time of day**. Data preprocessing involved handling missing values, normalizing numerical features, and encoding categorical variables where applicable. The **congestion level** was derived from existing traffic data and adjusted to reflect realistic congestion patterns based on speed, capacity, and lane configurations.
+## Causal Inference Notebook
+The [Causal Inference Notebook](./code/causal_inference.ipynb) details the implementation of Regression Discontinuity Design (RDD) analysis to assess policy impacts.
 
-- **Supervised Learning Models**:  
-  The study applied **Random Forest Regressor** and **XGBoost**, two ensemble learning techniques known for their ability to capture nonlinear relationships. An **80-20 train-test split** was applied, and **five-fold cross-validation** was used to enhance model generalizability and reduce overfitting.
+## Prediction Notebook
+The [Prediction Notebook](./code/prediction.ipynb) contains scripts for training and evaluating predictive models used in this study.
 
-- **Hyperparameter Tuning**:  
-  Grid Search optimization was applied to tune key parameters such as the number of estimators, tree depth, and learning rate.
+## Data
+The `data` directory stores all raw and processed datasets used for analysis.
 
-- **Model Evaluation**:  
-  Performance was assessed using **Root Mean Squared Error (RMSE), R² Score, and Mean Absolute Error (MAE)**.
+## Visualizations
+The `visualizations` directory includes all plots and charts that illustrate the results of the analyses.
 
-- **Feature Importance Analysis**:  
-  Identifying key predictors, including road capacity and free speed, to understand their impact on congestion patterns.
+## Docs
+The `docs` directory contains supplementary documentation and the final report.
 
-## **Results**
-### **Model Performance Comparison**
-| Model            | RMSE     | R² Score | MAE      |
-|-----------------|----------|----------|----------|
-| Random Forest   | 4.039    | 0.913    | 2.403    |
-| XGBoost        | 4.065    | 0.912    | 2.426    |
-
-The **Random Forest model outperformed XGBoost**, achieving **lower RMSE and higher predictive accuracy**. This suggests that tree-based ensemble learning methods effectively capture **complex congestion patterns** in transportation networks.
-
-### **Feature Importance Analysis**
-Feature importance analysis confirmed that **road capacity and free speed** are the most influential predictors of congestion. The number of lanes also plays a significant role, as fewer lanes contribute to higher congestion levels.
-
-### **Prediction vs. Actual Congestion Levels**
-To validate model performance, actual congestion levels were compared with predictions. The analysis demonstrated that the models effectively captured congestion trends, with **minimal residual errors**. Below is a visualization of actual vs. predicted congestion levels:
-
-![Prediction vs. Actual Congestion](https://github.com/user-attachments/assets/sample_prediction_vs_actual.png)
+## Final Report
+The [Final Report](./docs/Final-Report.pdf) provides a comprehensive overview of the study, including the background, methodologies, results, and conclusions.
 
 ---
 

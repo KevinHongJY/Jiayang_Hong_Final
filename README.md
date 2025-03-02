@@ -14,6 +14,11 @@ We extend our gratitude to **Prof. Luyao Zhang** for valuable guidance throughou
 This project has deepened my understanding of **machine learning applications in social science**, particularly in **transportation modeling**. Through building predictive models for congestion forecasting, I have strengthened my skills in **data preprocessing, supervised learning, feature engineering, and model evaluation**. The experience also honed my ability to translate **machine learning insights into policy-relevant recommendations**, a crucial skill for data-driven decision-making in real-world applications.
 
 ---
+## **Poster**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/05010698-1779-425f-b275-5c8d3c1bc552" alt="Poster" width="400">
+</div>
+
 
 ## **Table of Contents**
 # Machine Learning for Transportation Analysis
@@ -50,10 +55,3 @@ The `docs` directory contains supplementary documentation and the final report.
 
 ## Final Report
 The [Final Report](./docs/Final-Report.pdf) provides a comprehensive overview of the study, including the background, methodologies, results, and conclusions.
-
-## **How to Use This Repository**
-### **Setup Instructions**
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/YOUR_GITHUB_REPO.git
-   cd YOUR_GITHUB_REPO

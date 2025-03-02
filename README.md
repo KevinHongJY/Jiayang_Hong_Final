@@ -19,14 +19,13 @@ This project has deepened my understanding of **machine learning applications in
 # Machine Learning for Transportation Analysis
 
 ## Table of Contents
-- [Code](./code)
-  - [Explanation Notebook](./code/Explanation.ipynb)
-  - [Causal Inference Notebook](./code/causal_inference.ipynb)
-  - [Prediction Notebook](./code/prediction.ipynb)
+- [Code](./Code)
+  - [Causal_Inference](./Code/Causal_Inference.py)
+  - [Explanation](./Code/Explanation.py)
+  - [Prediction](./Code/Prediction.py)
 - [Data](./data)
-- [Visualizations](./visualizations)
 - [Docs](./docs)
-  - [Final Report](./docs/Final-Report.pdf)
+- [Final Report](./docs/Final-Report.pdf)
 
 ## Code
 The `code` directory contains all Python scripts and Jupyter notebooks used for this project. It includes methods for explanation (such as social network analysis), prediction (machine learning models), and causal inference (regression discontinuity design).

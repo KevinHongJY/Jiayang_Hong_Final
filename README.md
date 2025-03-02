@@ -30,7 +30,7 @@ This project has deepened my understanding of **machine learning applications in
   - [Prediction](./Code/Prediction.py)
 - [Data](./Data)
 - [Docs](./Documentation)
-- [Final Report](./docs/Final-Report.pdf)
+- [Final Report](Final-Report.pdf)
 
 ## Code
 The `code` directory contains all Python scripts and Jupyter notebooks used for this project. It includes methods for explanation (such as social network analysis), prediction (machine learning models), and causal inference (regression discontinuity design).

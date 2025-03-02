@@ -1,5 +1,3 @@
-
-
 1. Overview
 Goal: Investigate congestion patterns, route choices, and time-dependent attributes in a GMNS-formatted dataset.
 Key Tools:
@@ -15,8 +13,9 @@ Install Python
 Recommended: Anaconda Python 3.8+ for easy package management.
 2. Create a Virtual Environment:
 ```python
-conda create -n gmns-env python=3.8
-conda activate gmns-env
+python -m venv env
+source env/bin/activate     # On Windows: env\Scripts\activate
+pip install -r requirements.txt
 ```
 3. Install Required Packages
 ```bash
@@ -52,13 +51,20 @@ Install dependencies:
 3. Execute Scripts
 Run each Python script with:
 ```python
-!python code/data_cleaning.py
-!python code/traffic_assignment.py
+!python code/causal_inference.py
+!python code/explaination.py
+!python code/prediction.py
 ```
+For a more interactive approach, open the problemset_2.ipynb notebook:
+```python
+jupyter notebook problemset_2.ipynb
+```
+
 4. Clone Repo and Run
 ```python
-git clone [https://github.com/yourusername/my-gmns-project](https://github.com/Rising-Stars-by-Sunshine/Jiayang_Hong_PS1).git
+[git clone https://github.com/Rising-Stars-by-Sunshine/Jiayang_Hong_PS1.git
+](https://github.com/KevinHongJY/Jiayang_Hong_Final)
 cd my-gmns-project
-python code/data_cleaning.py
-python code/traffic_assignment.py
+]
+
 ```

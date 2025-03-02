@@ -23,7 +23,7 @@ This project has deepened my understanding of **machine learning applications in
   - [Causal_Inference](./Code/Causal_Inference.py)
   - [Explanation](./Code/Explanation.py)
   - [Prediction](./Code/Prediction.py)
-- [Data](./data)
+- [Data](./Data)
 - [Docs](./docs)
 - [Final Report](./docs/Final-Report.pdf)
 

@@ -9,6 +9,27 @@ data_cleaning.py: Cleans and merges the GMNS CSV files (node.csv, link.csv)
 traffic_assignment.py: Runs the core static/dynamic assignment methods
 2. Local Setup
 Install Python
+## Dependencies
+
+Below is a summary of the key dependencies:
+
+| Library       | Version  | Purpose                                          |
+|---------------|----------|--------------------------------------------------|
+| numpy         | 1.22.0   | Numerical computations                           |
+| pandas        | 1.4.0    | Data manipulation and analysis                   |
+| geopandas     | 0.10.2   | Geospatial data processing                       |
+| matplotlib    | 3.5.0    | Plotting and visualization                       |
+| seaborn       | 0.12.2   | Statistical data visualization                   |
+| scikit-learn  | 1.2.2    | Machine learning models and utilities            |
+| xgboost       | 1.7.5    | Gradient boosting for predictive modeling        |
+| shap          | 0.41.0   | Model interpretability and feature importance      |
+| statsmodels   | 0.14.0   | Statistical modeling and regression analysis       |
+| jupyter       | Latest   | Running Jupyter notebooks                        |
+
+Ensure you have Python 3.8 or higher installed before proceeding.
+
+```bash
+pip install -r requirements.txt
 
 Recommended: Anaconda Python 3.8+ for easy package management.
 2. Create a Virtual Environment:

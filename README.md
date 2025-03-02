@@ -19,7 +19,7 @@ This project has deepened my understanding of **machine learning applications in
 # Machine Learning for Transportation Analysis
 
 ## Table of Contents
-- [Code](#code)
+- [Code](./code)
   - [Explanation Notebook](./code/Explanation.ipynb)
   - [Causal Inference Notebook](./code/causal_inference.ipynb)
   - [Prediction Notebook](./code/prediction.ipynb)

@@ -31,13 +31,13 @@ This project has deepened my understanding of **machine learning applications in
 The `code` directory contains all Python scripts and Jupyter notebooks used for this project. It includes methods for explanation (such as social network analysis), prediction (machine learning models), and causal inference (regression discontinuity design).
 
 ## Explanation Notebook
-The [Explanation Notebook](./code/Explanation.ipynb) provides the script for social network analysis and related methods used to extract insights from the data.
+The [Explanation Notebook] provides the script for social network analysis and related methods used to extract insights from the data.
 
 ## Causal Inference Notebook
-The [Causal Inference Notebook](./code/causal_inference.ipynb) details the implementation of Regression Discontinuity Design (RDD) analysis to assess policy impacts.
+The [Causal Inference Notebook] details the implementation of Regression Discontinuity Design (RDD) analysis to assess policy impacts.
 
 ## Prediction Notebook
-The [Prediction Notebook](./code/prediction.ipynb) contains scripts for training and evaluating predictive models used in this study.
+The [Prediction Notebook] contains scripts for training and evaluating predictive models used in this study.
 
 ## Data
 The `data` directory stores all raw and processed datasets used for analysis.
@@ -50,35 +50,6 @@ The `docs` directory contains supplementary documentation and the final report.
 
 ## Final Report
 The [Final Report](./docs/Final-Report.pdf) provides a comprehensive overview of the study, including the background, methodologies, results, and conclusions.
-
----
-
-## **Repository Structure**
-This repository is organized into clearly labeled directories:
-
-### **Code**
-Contains all Python scripts and Jupyter notebooks used in the project.
-- `code/data_preprocessing.py` – Data cleaning and feature engineering.
-- `code/model_training.py` – Training and evaluation of Random Forest and XGBoost models.
-- `code/feature_importance.py` – Analysis of the most significant predictors.
-- `notebooks/ML_Transportation_Analysis.ipynb` – Step-by-step workflow.
-
-### **Data**
-Contains raw and processed datasets used for analysis.
-- `data/raw/` – Original GMNS dataset.
-- `data/processed/` – Cleaned and preprocessed data files.
-
-### **Visualizations**
-Includes figures, charts, and tables that illustrate key findings.
-- `visualizations/predictions_vs_actual.png`
-- `visualizations/feature_importance.png`
-
-### **Documentation**
-Stores supplementary materials, reports, and references.
-- `docs/final_report.pdf`
-- `docs/references.bib`
-
----
 
 ## **How to Use This Repository**
 ### **Setup Instructions**

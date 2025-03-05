@@ -83,8 +83,8 @@ jupyter notebook problemset_2.ipynb
 
 4. Clone Repo and Run
 ```python
-[git clone https://github.com/Rising-Stars-by-Sunshine/Jiayang_Hong_PS1.git
-](https://github.com/KevinHongJY/Jiayang_Hong_Final)
+[git clone https://github.com/KevinHongJY/Jiayang_Hong_Final.git
+]
 cd my-gmns-project
 ]
 

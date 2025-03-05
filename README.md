@@ -2,7 +2,6 @@
 
 ## **Authors**
 - **Jiayang Hong** – Lead Researcher, Model Development, and Analysis  
-- **[Additional Team Members if applicable]** – Contributions in data processing, evaluation, and documentation  
 
 ## **Disclaimer**
 This project was submitted as part of **STATS201: Machine Learning for Social Science**, instructed by **Prof. Luyao Zhang** at **Duke Kunshan University** in **Autumn 2025**. The findings, interpretations, and conclusions presented in this report are those of the authors and do not represent the views of Duke Kunshan University or its affiliates.
